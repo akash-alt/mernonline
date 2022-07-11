@@ -22,9 +22,9 @@ const PORT = process.env.PORT || 8080;
 app.use(
   cors({
      //origin: ["http://localhost:3000"],
-     optionsSuccessStatus: 200, // For legacy browser support
-      methods: "GET,POST, PATCH,DELETE",
-    origin: [`https://candid-crisp-0bfd48.netlify.app`],
+      optionsSuccessStatus: 200, // For legacy browser support
+       methods: "GET,POST, PATCH,DELETE",
+     origin: [`https://shiny-tanuki-0b1e38.netlify.app/`],
   })
 );
 
