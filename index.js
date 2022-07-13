@@ -24,7 +24,7 @@ app.use(
      //origin: ["http://localhost:3000"],
        optionsSuccessStatus: 200, // For legacy browser support
         methods: "GET,POST,PATCH,DELETE",
-      origin: [`https://tangerine-tiramisu-6e6df9.netlify.app`],
+      origin: [`https://aesthetic-duckanoo-409c6e.netlify.app`],
   })
 );
 
